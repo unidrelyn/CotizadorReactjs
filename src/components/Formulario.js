@@ -96,7 +96,7 @@ const Formulario = ({ setResumen, setCargado }) => {
 
 		setTimeout(() => {
 			setResumen({
-				cotizacion: resultado,
+				cotizacion: Number(resultado),
 				datos,
 			});
 			setCargado(false);
